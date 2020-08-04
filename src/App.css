@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app {
+  background-color: #fafafa;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app__posts {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app__postsRight {
+  margin-left: 20px;
+}
+
+.app__header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-right: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app__headerImage {
+  object-fit: contain;
+}
+
+.app__signup {
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+.app__instagramEmbed {
+  max-width: 500px;
+  background-color: #fff;
+  border: 1px solid lightgray;
+  margin-bottom: 45px;
+}
+
+.app__upload {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  padding: 20px;
+  color: red;
 }
