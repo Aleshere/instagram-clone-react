@@ -1,3 +1,33 @@
+# Instagram Clone built with React
+
+# What I have learned building this
+
+> BEM css styling  
+> React hooks and dynamic .map post creation  
+> Firebase database and collection creation  
+> Material ui library for quick styling  
+> Cleanup function to reset active listeners and optimize performance  
+> Sign up, login and logout functionality  
+> Backend authentication (through Firebase)  
+> Functional programming vs class components  
+> Javascript optional chaining (try / catch cleaner alternative)  
+> Commenting and comment display via firebase db  
+> Bugs fix (ie cannot comment if not logged in etc..)  
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+## About
+
+* This was a fantastic experience. A tutorial that helped so much in understand all of the above aspects of how React works under the hood. 
+* It took about 5 hours, and I feel I have improved so much at the end
+* Project status: working.
+
+
+## And this the usual react boilerplate stuff
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
